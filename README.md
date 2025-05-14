@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Platform Flow
 
 1. **Seller lists a property:**
-   - The seller provides property details and pays a platform fee.
+   - Can list properties by uploadind property detail (with a platform fee).
    - The property is added to the public listing and can be browsed by buyers.
 2. **Buyer purchases a property:**
    - The buyer selects a property and completes the purchase with ETH.
