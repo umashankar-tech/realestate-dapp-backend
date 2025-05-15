@@ -86,8 +86,8 @@ npm install
 ```shell
 npm run dev
 ```
-
-
+### Important !
+- In frontend don't forget to ***update  contract address*** and ***abi**
 
 ### Smart Contract Development
 - Build contracts: `forge build`
