@@ -72,8 +72,22 @@ $ anvil
 ```shell
 $ forge script script/DeployRealEstatePlatform.s.sol.s.sol:DeployRealEstatePlatform.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
+### Frontend Installation
+```shell
+git clone https://github.com/umashankar-tech/realestate-dapp-frontend
+````
+### Install Dependicies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```shell
+npm install
+````
+
+### Run Local Port
+```shell
+npm run dev
+```
+
+
 
 ### Smart Contract Development
 - Build contracts: `forge build`
