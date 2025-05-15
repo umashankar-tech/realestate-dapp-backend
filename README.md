@@ -36,14 +36,41 @@ This is a decentralized real estate application (DApp) built with Solidity smart
 - Foundry (for smart contract development)
 - An Ethereum wallet (e.g., MetaMask)
 
-### Install Dependencies
-```bash
-npm install
+
+### Build
+
+```shell
+$ forge build
 ```
 
-### Run the Development Server
-```bash
-npm run dev
+### Test
+
+```shell
+$ forge test
+```
+
+### Format
+
+```shell
+$ forge fmt
+```
+
+### Gas Snapshots
+
+```shell
+$ forge snapshot
+```
+
+### Anvil
+
+```shell
+$ anvil
+```
+
+### Deploy
+
+```shell
+$ forge script script/DeployRealEstatePlatform.s.sol.s.sol:DeployRealEstatePlatform.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
